@@ -10,7 +10,7 @@ public class FindingLastPerson<T> {
         if (persons == null) {
             return null;
         }
-        if (persons.isEmpty()){
+        if (persons.isEmpty()) {
             throw new IllegalArgumentException("List of person is empty!!");
         }
         boolean secondPerson = false;
@@ -31,5 +31,5 @@ public class FindingLastPerson<T> {
         }
         return listPersons.get(0);
     }
-    
+
 }
